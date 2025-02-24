@@ -42,62 +42,49 @@ body {
 
 /* ===== Numéro 3a ===== */
 header .wrapper {
-
+display: flex;
+align-items: center;
+justify-content: space-around;
 }
 
 /* ===== Numéro 3b ===== */
 .logo {
-
+display: flex;
+align-items: center;
+gap: 20px;
+font: 700 4rem "Nunito", sans-serif;
+text-decoration: none;
+color: #444;
 }
 
 /* ===== Numéro 3c ===== */
-/*
-.menu ul {
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-right: 0;
-    margin-left: 0;
 
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-right: 0;
-    padding-left: 0;
+.menu ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
 }
-*/
+
 
 /* ===== Numéro 3d ===== */
-/*
+
 .menu a {
+    font: bold 1.4rem 'PT Sans', sans-serif;
     color: black;
-    font-weight: bold;
-    font-size: 14px;
-    font-family: 'PT Sans', sans-serif;
-    padding-top: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 5px;
+    padding: 5px 10px 5px 10px;
     text-transform: uppercase;
     text-decoration: none;
 }
-*/
+
 
 /* ===== Numéro 3e ===== */
-/*
+
 .menu a:hover {
-    border-top-color: #000;
-    border-right-color: black;
-    border-bottom-color: #000;
-    border-left-color: black;
-    border-top-style: solid;
-    border-right-style: solid;
-    border-left-style: solid;
-    border-bottom-style: solid;
-    border-top-width: 2px;
-    border-right-width: 2px;
-    border-bottom-width: 2px;
-    border-left-width: 2px;
+    border: 2px solid black;
 }
-*/
+
 
 /* ===== Numéro 3f ===== */
 /*
