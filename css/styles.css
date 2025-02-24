@@ -131,6 +131,13 @@ color: #444;
     color: #F2545B;
 }
 
+/* ===== Numéro 5c ===== */
+
+.athletes {
+    padding: 100px 0;
+    width: 1500px;
+    margin: 0 auto;
+}
 
 /* ===== Numéro 5a ===== */
 
@@ -142,39 +149,28 @@ color: #444;
 
 
 /* ===== Numéro 5b ===== */
-/*
-.athletes p {
-    margin-right: 0;
-    margin-bottom: 50px;
-    margin-top: 0;
-    margin-left: 0;
-}
-*/
 
-/* ===== Numéro 5c ===== */
-/*
-.athletes {
-    padding-top: 100px;
-    padding-bottom: 100px;
-    padding-left: 0;
-    padding-right: 0;
+.athletes p {
+    margin: 0 0 50px 0;
 }
-*/
 
 
 /* ===== Numéro 5d ===== */
 .athletes-photos {
-
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
 }
 
 /* ===== Numéro 5e ===== */
 .athletes-photos img {
-
+    max-width: 100%;
 }
 
 /* ===== Numéro 5f ===== */
 .athlete1 {
-
+    grid-column: span 2;
+    grid-row: span 2;
 }
 
 
