@@ -118,7 +118,7 @@ color: #444;
 
 /* ===== Numéro 4c ===== */
 .hero .contenu {
-    margin-top: 150px; /* J'ai ajouté ceci car les instructions ne marchent pas ou alors je suis aveugle */
+    margin-top: 150px; 
     max-width: 45%;
     color: white;
 }
@@ -126,7 +126,7 @@ color: #444;
 /* ===== Numéro 4d ===== */
 
 .hero h1 {
-    font: 100 7rem/100% 'Nunito', sans-serif; /* changement de ceci aussi */
+    font: 100 7rem/100% 'Nunito', sans-serif; 
     margin: 0 0 20px 0;
     color: #F2545B;
 }
